@@ -1,0 +1,29 @@
+@import './blocks/variables';
+@import './blocks/header';
+@import './blocks/main';
+@import './blocks/footer';
+
+.color1 {
+	color: $color1;
+}
+.color2 {
+	color: $color2;
+}
+.bg1 {
+	background-color: $color1;
+}
+.bg2 {
+	background-color: $color2;
+}
+
+// @media (max-width: 575px) {
+// 	header {
+// 		.container {
+// 			height: 80vh;
+// 		}
+
+// 		.animation-content {
+// 			margin-top: 0;
+// 		}
+// 	}
+// }

@@ -1,0 +1,181 @@
+$color1: #05b1b1;
+$color2: #52339a;
+$padTopTitle: 4.375rem;
+
+// Переменные анимации
+$animation-delay-1s: 1s;
+$animation-delay-2s: 2s;
+$animation-delay-3s: 3s;
+$animation-delay-4s: 4s;
+$animation-delay-5s: 5s;
+$animation-fast-duration: 800ms;
+$animation-faster-duration: 500ms;
+$animation-slow-duration: 2s;
+$animation-slower-duration: 3s;
+
+$animation-fade-in-down-transform-from: translate3d(0, -100%, 0);
+$animation-fade-in-down-transform-to: translate3d(0, 0, 0);
+
+$animation-fade-in-left-transform-from: translate3d(-100%, 0, 0);
+$animation-fade-in-left-transform-to: translate3d(0, 0, 0);
+
+$animation-fade-in-right-transform-from: translate3d(100%, 0, 0);
+$animation-fade-in-right-transform-to: translate3d(0, 0, 0);
+
+$animation-fade-in-up-transform-from: translate3d(0, 100%, 0);
+$animation-fade-in-up-transform-to: translate3d(0, 0, 0);
+
+$animation-fade-out-down-transform-to: translate3d(0, 100%, 0);
+
+$animation-fade-out-left-transform-to: translate3d(-100%, 0, 0);
+
+$animation-fade-out-right-transform-to: translate3d(100%, 0, 0);
+
+$animation-fade-out-up-transform-to: translate3d(0, -100%, 0);
+
+$animation-slide-in-down-transform-from: translate3d(0, -100%, 0);
+$animation-slide-in-down-transform-to: translate3d(0, 0, 0);
+
+$animation-slide-in-left-transform-from: translate3d(-100%, 0, 0);
+$animation-slide-in-left-transform-to: translate3d(0, 0, 0);
+
+$animation-slide-in-right-transform-from: translate3d(100%, 0, 0);
+$animation-slide-in-right-transform-to: translate3d(0, 0, 0);
+
+$animation-slide-in-up-transform-from: translate3d(0, 100%, 0);
+$animation-slide-in-up-transform-to: translate3d(0, 0, 0);
+
+$animation-slide-out-down-transform-from: translate3d(0, 0, 0);
+$animation-slide-out-down-transform-to: translate3d(0, 100%, 0);
+
+$animation-slide-out-left-transform-from: translate3d(0, 0, 0);
+$animation-slide-out-left-transform-to: translate3d(-100%, 0, 0);
+
+$animation-slide-out-right-transform-from: translate3d(0, 0, 0);
+$animation-slide-out-right-transform-to: translate3d(100%, 0, 0);
+
+$animation-slide-out-up-transform-from: translate3d(0, 0, 0);
+$animation-slide-out-up-transform-to: translate3d(0, -100%, 0);
+
+$animation-slide-down-transform-from: translate3d(0, 0, 0);
+$animation-slide-down-transform-to: translate3d(0, 100%, 0);
+
+$animation-slide-left-transform-from: translate3d(0, 0, 0);
+$animation-slide-left-transform-to: translate3d(-100%, 0, 0);
+
+$animation-slide-right-transform-from: translate3d(0, 0, 0);
+$animation-slide-right-transform-to: translate3d(100%, 0, 0);
+
+$animation-slide-up-transform-from: translate3d(0, 0, 0);
+$animation-slide-up-transform-to: translate3d(0, -100%, 0);
+
+$animation-zoom-in-transform-from: scale3d(0.3, 0.3, 0.3);
+
+$animation-zoom-out-transform-50: scale3d(0.3, 0.3, 0.3);
+
+$animation-tada-transform-from: scale3d(1, 1, 1);
+$animation-tada-transform-20: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+$animation-tada-transform-90: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+$animation-tada-transform-80: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+$animation-tada-transform-to: scale3d(1, 1, 1);
+
+$animation-pulse-transform-from: scale3d(1, 1, 1);
+$animation-pulse-transform-50: scale3d(1.05, 1.05, 1.05);
+$animation-pulse-transform-to: scale3d(1, 1, 1);
+
+// Animations extended
+
+$animation-drop-in-transform-0: scale(0);
+$animation-drop-in-transform-100: scale(1);
+$animation-drop-in-timing-function: cubic-bezier(0.34, 1.61, 0.7, 1);
+
+$animation-drop-out-transform-0: scale(1);
+$animation-drop-out-transform-100: scale(0);
+$animation-drop-out-timing-function: cubic-bezier(0.34, 1.61, 0.7, 1);
+
+$animation-fly-in-transform-0: scale3d(0.3, 0.3, 0.3);
+$animation-fly-in-transform-20: scale3d(1.1, 1.1, 1.1);
+$animation-fly-in-transform-40: scale3d(0.9, 0.9, 0.9);
+$animation-fly-in-transform-60: scale3d(1.03, 1.03, 1.03);
+$animation-fly-in-transform-80: scale3d(0.97, 0.97, 0.97);
+$animation-fly-in-transform-100: scale3d(1, 1, 1);
+$animation-fly-in-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+$animation-fly-in-up-transform-0: translate3d(0, 1500px, 0);
+$animation-fly-in-up-transform-60: translate3d(0, -20px, 0);
+$animation-fly-in-up-transform-75: translate3d(0, 10px, 0);
+$animation-fly-in-up-transform-90: translate3d(0, -5px, 0);
+$animation-fly-in-up-transform-100: translate3d(0, 0, 0);
+$animation-fly-in-up-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+$animation-fly-in-down-transform-0: translate3d(0, -1500px, 0);
+$animation-fly-in-down-transform-60: translate3d(0, 25px, 0);
+$animation-fly-in-down-transform-75: translate3d(0, -10px, 0);
+$animation-fly-in-down-transform-90: translate3d(0, 5px, 0);
+$animation-fly-in-down-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+$animation-fly-in-left-transform-0: translate3d(1500px, 0, 0);
+$animation-fly-in-left-transform-60: translate3d(-25px, 0, 0);
+$animation-fly-in-left-transform-75: translate3d(10px, 0, 0);
+$animation-fly-in-left-transform-90: translate3d(-5px, 0, 0);
+$animation-fly-in-left-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+$animation-fly-in-right-transform-0: translate3d(-1500px, 0, 0);
+$animation-fly-in-right-transform-60: translate3d(25px, 0, 0);
+$animation-fly-in-right-transform-75: translate3d(-10px, 0, 0);
+$animation-fly-in-right-transform-90: translate3d(5px, 0, 0);
+$animation-fly-in-right-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+$animation-fly-out-transform-20: scale3d(0.9, 0.9, 0.9);
+$animation-fly-out-transform-55: scale3d(1.1, 1.1, 1.1);
+$animation-fly-out-transform-100: scale3d(0.3, 0.3, 0.3);
+$animation-fly-out-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+$animation-fly-out-up-transform-20: translate3d(0, 10px, 0);
+$animation-fly-out-up-transform-45: translate3d(0, -20px, 0);
+$animation-fly-out-up-transform-100: translate3d(0, 2000px, 0);
+$animation-fly-out-up-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+$animation-fly-out-down-transform-20: translate3d(0, -10px, 0);
+$animation-fly-out-down-transform-45: translate3d(0, 20px, 0);
+$animation-fly-out-down-transform-100: translate3d(0, -2000px, 0);
+$animation-fly-out-down-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+$animation-fly-out-left-transform-20: translate3d(-20px, 0, 0);
+$animation-fly-out-left-transform-100: translate3d(2000px, 0, 0);
+$animation-fly-out-left-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+$animation-fly-out-right-transform-20: translate3d(20px, 0, 0);
+$animation-fly-out-right-transform-100: translate3d(-2000px, 0, 0);
+$animation-fly-out-right-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+
+$animation-browse-in-transform-0: scale(0.8) translateZ(0px);
+$animation-browse-in-transform-10: scale(0.8) translateZ(0px);
+$animation-browse-in-transform-80: scale(1.05) translateZ(0px);
+$animation-browse-in-transform-100: scale(1) translateZ(0px);
+
+$animation-browse-out-left-transform-0: translateX(0%) rotateY(0deg) rotateX(0deg);
+$animation-browse-out-left-transform-50: translateX(-105%) rotateY(35deg) rotateX(10deg) translateZ(-10px);
+$animation-browse-out-left-transform-100: translateX(0%) rotateY(0deg) rotateX(0deg) translateZ(-10px);
+
+$animation-browse-out-right-transform-0: translateX(0%) rotateY(0deg) rotateX(0deg);
+$animation-browse-out-right-transform-50: translateX(105%) rotateY(35deg) rotateX(10deg) translateZ(-10px);
+$animation-browse-out-right-transform-100: translateX(0%) rotateY(0deg) rotateX(0deg) translateZ(-10px);
+
+$animation-jiggle-transform-0: scale3d(1, 1, 1);
+$animation-jiggle-transform-30: scale3d(1.25, 0.75, 1);
+$animation-jiggle-transform-40: scale3d(0.75, 1.25, 1);
+$animation-jiggle-transform-50: scale3d(1.15, 0.85, 1);
+$animation-jiggle-transform-65: scale3d(0.95, 1.05, 1);
+$animation-jiggle-transform-75: scale3d(1.05, 0.95, 1);
+$animation-jiggle-transform-100: scale3d(1, 1, 1);
+
+$animation-flash-duration: 750ms;
+
+$animation-shake-transform-100: translateX(0);
+$animation-shake-transform-90: translateX(-10px);
+$animation-shake-transform-80: translateX(10px);
+
+$animation-glow-bg-0: #fcfcfd;
+$animation-glow-bg-30: #fff6cd;
+$animation-glow-bg-100: #fcfcfd;

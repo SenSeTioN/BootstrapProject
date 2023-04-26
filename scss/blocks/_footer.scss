@@ -1,0 +1,17 @@
+footer {
+	margin: 0 auto;
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
+	background: url('../img/pattern.png'), $color1;
+	background: url('../img/pattern.png'), linear-gradient(to right, $color1 0%, $color2 100%);
+	background-size: cover;
+
+	.footer__icons-item {
+		border-radius: 50%;
+		border: none;
+
+		i {
+			font-size: 250%;
+		}
+	}
+}
